@@ -162,6 +162,11 @@ const Footer = () => {
                 to="/contact"
                 className="group relative hover:text-white transition-colors duration-300"
               >
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-72 bg-gray-800 border border-gray-700 text-gray-300 text-xs rounded-xl p-4 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-300 z-50 shadow-xl">
+                  <p className="font-semibold text-white mb-2">Contact Us</p>
+                  <p>Have a question or need help? Reach out to our support team at <span className="text-primary-400">support@jobportal.com</span> or use our contact form. We typically respond within 24 hours.</p>
+                  <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-700"></div>
+                </div>
                 <span className="relative z-10">Contact Us</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
               </Link>
